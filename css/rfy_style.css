@@ -1,0 +1,46 @@
+.rf_floating {
+  background: none repeat scroll 0 0 #fff;
+  border-left: 1px solid #999;
+  border-top: 3px solid #000;
+  bottom: -300px;
+  box-shadow: 5px 5px 19px #000;
+  padding: 5px;
+  position: fixed;
+  right: 0;
+  width: 300px;
+  display: none;
+  z-index: 9999;
+}
+
+.rf_title .rfy_a {
+  color: #000;
+  float: left;
+}
+
+.rf_content {
+  color: #999;
+}
+.rf_img {
+  float: left;
+  width: 100px;
+  margin-right: 10px;
+}
+.rf_heading h3 {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    border-bottom: 2px solid #000;
+}
+.rf_close_btn {
+    position: absolute;
+    top: -13px;
+    background-color: #000;
+    left: -9px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px #272;
+    padding: 0px 8px 0px 8px;
+    cursor: pointer;
+}
+.rf_close_btn a {
+    color: #fff;
+    text-decoration: none !important;
+}
